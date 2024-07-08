@@ -1,0 +1,80 @@
+/* TodoList.css */
+
+body {
+    background-color: #F4F1DE;
+    color: #38220f;
+}
+
+.container {
+    background-color: #D9CBBE;
+}
+
+.h1 {
+    font-size: 2.5rem;
+}
+
+.h1 .fa-pencil {
+    margin-right: 10px;
+}
+
+.add-todo-wrapper {
+    background-color: #A47B5B;
+    color: #ffffff;
+}
+
+.add-todo-input {
+    background-color: #ffffff;
+    color: #38220f;
+}
+
+.search-input {
+    border: 1px solid #8B4513 !important; /* Brown color */
+}
+
+.btn-primary {
+    background-color: #6E4B28;
+    border-color: #6E4B28;
+}
+
+.todo-item {
+    background-color: #E6DED0;
+    border: 1px solid #A47B5B;
+}
+
+.todo-actions .btn {
+    color: #6E4B28;
+}
+
+.todo-actions .btn:hover {
+    color: #38220f;
+}
+
+.text-primary {
+    color: #6E4B28 !important;
+}
+
+.text-info {
+    color: #6E4B28 !important;
+}
+
+.text-success {
+    color: #4A2E19 !important;
+}
+
+.text-danger {
+    color: #B33A3A !important;
+}
+
+.date-label {
+    color: #6E4B28;
+}
+
+/* Styling for Checkbox */
+.todo-item .fa-check-square {
+    color: #5cb85c !important; /* Green color for completed tasks */
+    font-size: 1.5rem; /* Increase size of checkbox */
+}
+
+.todo-item .fa-square {
+    font-size: 1.5rem; /* Increase size of checkbox */
+}
